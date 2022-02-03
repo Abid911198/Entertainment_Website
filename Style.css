@@ -1,0 +1,276 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.Navbar{
+  width: 100%;
+  height: 9vh;
+  display: flex;
+
+background: linear-gradient(150deg, rgba(171,246,240,0.9948354341736695) 31%, rgba(255,251,129,1) 74%, rgba(222,242,78,1) 100%, rgba(0,212,255,1) 100%);
+ 
+}
+.Logo{
+  background-color: #4a8183d7;
+  box-shadow: -20px 3px 14px 11px rgba(0,0,0,0.45);
+-webkit-box-shadow: -20px 3px 100px 11px rgba(0,0,0,0.45);
+-moz-box-shadow: -20px 3px 64px 11px rgba(0,0,0,0.45);
+}
+.Logo img{
+  padding: 10px;
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  
+
+}
+.Navbar ul {
+  display: flex;
+    list-style-type: none;
+    margin: 20px;
+    
+  }
+  
+  li {
+    padding-left: 40px;
+    text-decoration: none;
+  }
+  .Navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  .Navbar ul li a:hover{
+    color: navy;
+  }
+  
+ /* =================================Slider====================================================== */
+ * {
+   box-sizing:border-box;
+   
+  }
+
+/* Slid1eshow container */
+.slide1show-container {
+  max-width: 1500px;
+  max-height: 850px;
+  position: relative;
+  margin: auto;
+}
+
+/* H1ide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides img{
+  height: 90vh;
+}
+
+/* Next & previ1ous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Po1sition the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* O1n hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Capti1on text */
+.text {
+  color:black;
+  font-weight: 900;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ===================================hero======================================================================= */
+.Hero1{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -20px;
+  
+}
+#Genre{
+  width: 110px;
+  height: 6vh;
+  border: 2px solid gray;
+  background-color: gold;
+  margin-top: 20px;
+  font-size: medium;
+}
+* {
+  box-sizing: border-box;
+  
+}
+.example{
+  width: 85%;
+  height: 45px;
+  position: relative;
+  left: 15%;
+  top: -40px;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  display: flex;
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 100%;
+  border: 2px solid gray;
+  background-color: gold;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 5%;
+  border: 1px solid gray;
+  z-index: 2;
+  position: relative;
+  top:-43px;
+  left: 95%;
+  /* position: relative;
+  right: 25%;
+  z-index: 2; */
+  padding: 10px;
+  
+  background: gold;
+  color: black;
+  font-size: 17px;
+  
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Hero{
+  width: 100%;
+  height: 75vh;
+  color: #fff;
+  margin-top: -23px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 20px;
+  background-color: #000;
+  
+}
+
+.main-card{
+  display: flex;
+  margin-left: 3%;
+  margin-right: 5%;
+  background-color: black;
+  opacity: 0.8;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 220px;
+    margin: 10px;
+    text-align: center; 
+  
+  }
+  .card img{
+    height: 200px;
+  }
+  .text{
+    width: 100%;
+
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+/* =================================footer Css============================================================ */
+.footer{
+  width: 100%;
+  height: 10vh;
+  padding-top: -5px;
+  background: linear-gradient(#10c0dfd0,rgba(167, 204, 2, 0.6));
+  display: flex;
+}
+.logo img{
+  width: 70px;
+  height: 60px;
+  padding-top: -10px;
+}
+.footer p{
+  color: gray;
+  padding-left: 30px;
+  padding-top: 20px;
+}
